@@ -11,8 +11,7 @@ interface BannerDropdownProps {
         const { open } = useContext(BannerContext)
   
       return open ? (<div className="banner-dropdown">
-        {/* {children} */}
-        Hello World
+        {children}
         </div>
         ) : null
     };

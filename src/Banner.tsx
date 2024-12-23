@@ -1,7 +1,12 @@
 import { ReactNode, FC, useState, createContext } from "react"
 import classnames from "classnames"
 
-const BannerContext = createContext()
+interface BannerContextType {
+  open: boolean;
+  toggle: () => void;
+}
+
+const BannerContext = createContext<BannerContextType | undefined>(undefined)
 
 interface BannerProps {
   children: ReactNode;
@@ -12,6 +17,7 @@ interface BannerProps {
 }
 
 const Banner: FC<BannerProps> = ({children, className, shape, color, ...rest}) => {
+  
 
   const [open, setOpen] = useState(false)
 
