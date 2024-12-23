@@ -9,6 +9,11 @@ interface BannerDropdownProps {
   const BannerDropdown: FC<BannerDropdownProps> = ({ children }) => {
 
         const { open } = useContext(BannerContext)
+
+        if(!useContext(BannerContext)){
+            throw new Error("BannerDropdown must be used within a Banner Provider")
+        }
+  
   
       return open ? (<div className="banner-dropdown">
         {children}

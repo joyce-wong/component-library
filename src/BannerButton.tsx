@@ -9,6 +9,10 @@ interface BannerButtonProps {
   const BannerButton: FC<BannerButtonProps> = ({ children }) => {
 
         const { toggle } = useContext(BannerContext)
+
+        if(!useContext(BannerContext)){
+            throw new Error("BannerButton must be used within a Banner Provider")
+        }
   
       return (<button onClick={toggle}>
         {children}
