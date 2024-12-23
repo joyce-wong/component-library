@@ -1,5 +1,8 @@
 import './App.css'
 import Badge from "./Badge"
+import Banner from "./Banner"
+import BannerButton from "./BannerButton"
+import BannerDropdown from "./BannerDropdown"
 
 function App() {
 
@@ -28,6 +31,19 @@ function App() {
       <Badge shape="pill" color="purple">Badge</Badge>
       <Badge shape="pill" color="pink">Badge</Badge>
       </div>
+      <h1>Banners</h1>
+      <Banner shape="square" color="red">
+        <BannerButton>Banner Button</BannerButton>
+        <BannerDropdown>
+          Banner Dropdown
+        </BannerDropdown>
+      </Banner>
+      <Banner shape="pill" color="green">
+        <BannerButton>Banner Button</BannerButton>
+        <BannerDropdown>
+          Banner Dropdown
+        </BannerDropdown>
+      </Banner>
     </>
   )
 }

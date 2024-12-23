@@ -147,3 +147,33 @@ button.button-pink {
   color: #9D174D;
   background-color: #FCE7F3;
 }
+
+.banner-square {
+  padding: 7px 11px;
+  border-radius: 4px;
+}
+
+.banner-pill {
+  padding: 7px 11px;
+  border-radius: 12px;
+}
+
+.banner-green {
+  color: #065F46;
+  background-color: #D1FAE5;
+}
+
+.banner-yellow {
+  color: #92400E;
+  background-color: #FEF3C7;
+}
+
+.banner-red {
+  color: #991B1B;
+  background-color: #FEE2E2;
+}
+
+.banner-blue {
+  color: #1E40AF;
+  background-color: #DBEAFE;
+}
