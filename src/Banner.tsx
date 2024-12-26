@@ -6,7 +6,10 @@ interface BannerContext {
   toggle: () => void;
 }
 
-const BannerContext = createContext()
+const BannerContext = createContext<BannerContext>({
+  open: false,
+  toggle: () => {},
+})
 
 interface BannerProps {
   children: ReactNode;
