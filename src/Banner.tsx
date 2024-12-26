@@ -1,7 +1,7 @@
 import { ReactNode, FC, useState, createContext } from "react"
 import classnames from "classnames"
 
-interface BannerContextType {
+interface BannerContext {
   open: boolean;
   toggle: () => void;
 }
