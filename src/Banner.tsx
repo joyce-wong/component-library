@@ -6,7 +6,7 @@ interface BannerContextType {
   toggle: () => void;
 }
 
-const BannerContext = createContext<BannerContextType | undefined>(undefined)
+const BannerContext = createContext()
 
 interface BannerProps {
   children: ReactNode;
