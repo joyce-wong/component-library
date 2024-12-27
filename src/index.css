@@ -249,3 +249,48 @@ div.banner-icon-xcircle {
   margin-right: 15px;
   display: inline;
 }
+
+.card {
+  background-color: #F9FAFB;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 700px;
+  height: 300px;
+  color: #6B7280;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  margin-top: 60px;
+}
+
+.card:hover {
+  filter: drop-shadow(0 0 0.75rem #A9A9A9);
+}
+
+.card-title {
+  font-size: 18px;
+  text-align: center;
+  color: #111827;
+}
+
+.card-icon-blue {
+  background-color: #3F75FE;
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 46%;
+  /* transform: translateX(-15%); */
+  transform: translateY(-110%);
+}
+
+.card-icon-blue:hover {
+  filter: drop-shadow(0 0 0.75rem #A9A9A9);
+}
+
+.card-icon-cloud {
+  content:url(./assets/icons/Cloudupload.png);
+}

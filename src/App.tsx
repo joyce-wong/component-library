@@ -3,6 +3,9 @@ import Badge from "./Badge"
 import Banner from "./Banner"
 import BannerButton from "./BannerButton"
 import BannerDropdown from "./BannerDropdown"
+import Card from "./Card"
+import CardTitle from './CardTitle'
+import CardIcon from './CardIcon'
 
 function App() {
 
@@ -60,6 +63,14 @@ function App() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.
         </BannerDropdown>
       </Banner>
+      <h1>Card</h1>
+      <Card>
+        <CardIcon color="blue" iconImage="cloud" />
+        <CardTitle>
+          Easy Deployment
+        </CardTitle>
+        Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+      </Card>
     </>
   )
 }
