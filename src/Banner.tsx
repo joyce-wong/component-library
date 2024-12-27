@@ -14,12 +14,11 @@ const BannerContext = createContext<BannerContext>({
 interface BannerProps {
   children: ReactNode;
   className?: string;
-  shape: string;
   color?: string;
   [key: string]: any;
 }
 
-const Banner: FC<BannerProps> = ({children, className, shape, color, ...rest}) => {
+const Banner: FC<BannerProps> = ({children, className, color, ...rest}) => {
   
 
   const [open, setOpen] = useState(false)
@@ -27,9 +26,9 @@ const Banner: FC<BannerProps> = ({children, className, shape, color, ...rest}) =
   function toggle() {
     setOpen(prevOpen => !prevOpen)
   }
-  const shapeClass = shape && `banner-${shape}`
+
   const colorClass = color && `banner-${color}`
-  const allClasses = classnames(shapeClass, colorClass, className)
+  const allClasses = classnames(colorClass, className)
     return (
     <BannerContext.Provider value={{open, toggle}}>
     <div className={allClasses} {...rest}>

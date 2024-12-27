@@ -16,7 +16,9 @@ interface BannerDropdownProps {
   
   
       return open ? (<div className="banner-dropdown">
+          <p>
         {children}
+          </p>
         </div>
         ) : null
     };

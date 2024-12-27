@@ -32,16 +32,32 @@ function App() {
       <Badge shape="pill" color="pink">Badge</Badge>
       </div>
       <h1>Banners</h1>
-      <Banner shape="square" color="red">
-        <BannerButton>Banner Button</BannerButton>
-        <BannerDropdown>
-          Banner Dropdown
+      <h2>Success</h2>
+      <Banner color="green">
+        <BannerButton color="green" iconImage="check">Congratulations!</BannerButton>
+        <BannerDropdown>    
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.
         </BannerDropdown>
       </Banner>
-      <Banner shape="pill" color="green">
-        <BannerButton>Banner Button</BannerButton>
+      <h2>Warning</h2>
+      <Banner color="yellow">
+        <BannerButton color="yellow" iconImage="exclamation">Attention</BannerButton>
         <BannerDropdown>
-          Banner Dropdown
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.
+        </BannerDropdown>
+      </Banner>
+      <h2>Error</h2>
+      <Banner color="red">
+        <BannerButton color="red" iconImage="xcircle">There is a problem with your application</BannerButton>
+        <BannerDropdown>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum. 
+        </BannerDropdown>
+      </Banner>
+      <h2>Neutral</h2>
+      <Banner color="blue">
+        <BannerButton color="blue" iconImage="information">Update available</BannerButton>
+        <BannerDropdown>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.
         </BannerDropdown>
       </Banner>
     </>
