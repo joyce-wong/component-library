@@ -80,7 +80,7 @@ function App() {
     </div>
       <h1>Testimonials</h1>
       <div className="testimonial-container">
-      <TestimonialNoPic>
+      <TestimonialNoPic name="May Andersons" title="Workcation, CTO" brand="workcation">
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis."
       </TestimonialNoPic>
       </div>
