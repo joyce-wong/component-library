@@ -5,16 +5,17 @@ interface TestimonialNoPicProps {
   name: string;
   title: string;
   brand: string;
+  logoImage: string;
   [key: string]: any;
 }
 
-const TestimonialNoPic: FC<TestimonialNoPicProps> = ({ children, name, title, brand }) => {
+const TestimonialNoPic: FC<TestimonialNoPicProps> = ({ children, name, title, brand, logoImage }) => {
   
     return (
     
     <div className={"testimonial-no-pic"} >
         <div className="testimonial-no-pic-container">
-            <img src={`\assets\\${brand}LogoDesktop.png`} alt={`${brand} logo`} className={`${brand}-logo-desktop`} />
+            <img src={`${logoImage}`} alt={`${brand} logo`} className={`${brand}-logo-desktop`} />
             {children}
             <div className="testimonial-no-pic-signature">
                 <div className="testimonial-no-pic-name">
