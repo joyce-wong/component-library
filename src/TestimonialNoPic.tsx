@@ -16,7 +16,9 @@ const TestimonialNoPic: FC<TestimonialNoPicProps> = ({ children, name, title, br
     <div className={"testimonial-no-pic"} >
         <div className="testimonial-no-pic-container">
             <img src={`${logoImage}`} alt={`${brand} logo`} className={`${brand}-logo-desktop`} />
+            <p>
             {children}
+            </p>
             <div className="testimonial-no-pic-signature">
                 <div className="testimonial-no-pic-name">
                 {name}

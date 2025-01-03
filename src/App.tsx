@@ -7,6 +7,7 @@ import Card from "./Card"
 import CardTitle from './CardTitle'
 import CardIcon from './CardIcon'
 import TestimonialNoPic from './TestimonialNoPic'
+import TestimonialWithPic from './TestimonialWithPic'
 
 function App() {
 
@@ -80,6 +81,11 @@ function App() {
     </div>
       <h1>Testimonials</h1>
       <div className="testimonial-container">
+      <h2>With Pic</h2>
+      <TestimonialWithPic name="May Andersons" title="Workcation, CTO" personImage="\assets\May.png">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit.
+      </TestimonialWithPic>
+        <h2>No Pic</h2>
       <TestimonialNoPic name="May Andersons" title="Workcation, CTO" brand="workcation" logoImage="\assets\WorkcationLogoDesktop.png">
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis."
       </TestimonialNoPic>
