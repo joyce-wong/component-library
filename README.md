@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+# Component Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a <a href="https://component-library-uh69-gpto8frsr-joyce-wongs-projects-98fa0255.vercel.app/">component library</a> with reusable and compound components for the Scrimba Advanced React course. All the components are responsive and optimized for both mobile and desktop views. 
 
-Currently, two official plugins are available:
+- React
+- Typescript
+- Vite
+- Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Below is a list of components and the interactions that can be triggered by the user. 
 
-## Expanding the ESLint configuration
+## Badges
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Banners
 
-- Configure the top-level `parserOptions` property like this:
+- Click the banner to toggle between expanding to multi-line view and contracting to single-line view.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Card
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Hover the cursor to see shadow effect on card and icon. 
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Testimonial
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## About Joyce
+Joyce Wong is a front-end web developer at the NYC Department of Health and Mental Hygiene. She enjoys creating accessible websites that people enjoy using for a variety of devices. When not coding, you'll find her running, cooking, or reading a book from the library. 
+- <a href="https://justjoycewong.com">Portfolio</a>
+- <a href="https://www.linkedin.com/in/joyce-k-wong/">LinkedIn</a>
+- <a href="https://medium.com/@joycekwo12">Medium</a>
+
+
+
+
