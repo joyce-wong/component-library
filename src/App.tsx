@@ -8,6 +8,7 @@ import CardTitle from './CardTitle'
 import CardIcon from './CardIcon'
 import TestimonialNoPic from './TestimonialNoPic'
 import TestimonialWithPic from './TestimonialWithPic'
+import Tooltip from './Tooltip'
 
 function App() {
 
@@ -89,6 +90,39 @@ function App() {
       <TestimonialNoPic name="May Andersons" title="Workcation, CTO" brand="workcation" logoImage="\assets\WorkcationLogoDesktop.png">
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis."
       </TestimonialNoPic>
+      </div>
+      <h1>Tooltips</h1>
+      <div className="general-tooltip-container">
+        <div className="tooltip-container">
+          <h2>Bold</h2>
+        <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
+        </Tooltip>
+      <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
+        </Tooltip>
+        <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
+        </Tooltip>
+      <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
+        </Tooltip>
+        </div>
+        <div className="tooltip-container">
+          <h2>Light</h2>
+        <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
+        </Tooltip>
+      <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
+        </Tooltip>
+        <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
+        </Tooltip>
+      <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
+        </Tooltip>
+        </div>
       </div>
     </>
   )
