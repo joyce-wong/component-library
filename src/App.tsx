@@ -98,13 +98,13 @@ function App() {
         <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
           Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
         </Tooltip>
-      <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+      <Tooltip color="blue" shade="bold" title="Archive notes" icon="inbox">
           Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
         </Tooltip>
-        <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+        <Tooltip color="pink" shade="bold" title="Archive notes" icon="inbox">
           Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
         </Tooltip>
-      <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+      <Tooltip color="green" shade="bold" title="Archive notes" icon="inbox">
           Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
         </Tooltip>
         </div>

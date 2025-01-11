@@ -51,6 +51,8 @@ h2 {
   color: #5E5D5D;
 }
 
+/* Badges */
+
 .general-badges-container {
   display: flex;
   flex-direction: column;
@@ -165,6 +167,8 @@ button.button-pink {
   color: #9D174D;
   background-color: #FCE7F3;
 }
+
+/* Banners */
 
 .banners-container {
   display: flex;
@@ -342,6 +346,8 @@ div.banner-icon-xcircle {
   display: inline;
 }
 
+/* Card */
+
 .card-container {
   display: flex;
   justify-content: center;
@@ -401,12 +407,16 @@ div.banner-icon-xcircle {
   content:url(./assets/icons/Cloudupload.png);
 }
 
+/* Testimonial */
+
 .testimonial-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+/* Testimonial without Picture */
 
 .testimonial-no-pic {
   background-color: #F9FAFB;
@@ -534,7 +544,7 @@ div.banner-icon-xcircle {
   }
  }
 
- /* Testimonial With Pic */
+ /* Testimonial With Picture */
 
  .testimonial-with-pic {
   background-color: #2545B8;
@@ -651,6 +661,8 @@ div.banner-icon-xcircle {
   }
  }
 
+ /* Tooltips */
+
  .general-tooltip-container {
   display: flex;
   flex-direction: row;
@@ -686,12 +698,13 @@ div.banner-icon-xcircle {
     border-color: #262626 transparent transparent transparent;
  }
 
- .tooltip-title {
+ .tooltip-title-bold {
    font-size: 14px;
    font-family: Inter;
    font-weight: 600;
    text-align: left;
    margin: 0px 50px 0px 50px;
+   color: #FFFFFF;
  }
 
  .tooltip-icon-inbox-black-bold {
@@ -702,7 +715,7 @@ div.banner-icon-xcircle {
   left: 5%;
  }
 
- .tooltip-X-black-bold {
+ .tooltip-X-bold {
   content:url(./assets/icons/BlackBoldX.png);
   z-index: 2;
   position: relative;
@@ -717,4 +730,85 @@ div.banner-icon-xcircle {
    text-align: left;
    margin: 0px 50px 0px 50px;
    transform: translateY(-10%);
+ }
+
+ .tooltip-blue-bold {
+  width: 384px;
+  height: 112px;
+  background-color: #1E40AF;
+  color: #E8EDFF;
+  margin: 30px 15px 30px 15px;
+  border-radius: 10px;
+ }
+
+ .tooltip-blue-bold::after {
+    content: " ";
+    position: relative;
+    top: 30%; 
+    left: -33%;
+    border-width: 18px;
+    border-style: solid;
+    border-color: #1E40AF transparent transparent transparent;
+ }
+
+ .tooltip-icon-inbox-blue-bold {
+  content:url(./assets/icons/BlueBoldInbox.png);
+  z-index: 2;
+  position: relative;
+  top: 18%;
+  left: 5%;
+ }
+
+ .tooltip-pink-bold {
+  width: 384px;
+  height: 112px;
+  background-color: #A9229B;
+  color: #FFE9FD;
+  margin: 30px 15px 30px 15px;
+  border-radius: 10px;
+ }
+
+ .tooltip-pink-bold::after {
+    content: " ";
+    position: relative;
+    top: 30%; 
+    left: -33%;
+    border-width: 18px;
+    border-style: solid;
+    border-color: #A9229B transparent transparent transparent;
+ }
+
+ .tooltip-icon-inbox-pink-bold {
+  content:url(./assets/icons/PinkBoldInbox.png);
+  z-index: 2;
+  position: relative;
+  top: 18%;
+  left: 5%;
+ }
+
+ .tooltip-green-bold {
+  width: 384px;
+  height: 112px;
+  background-color: #47AA5D;
+  color: #E3FFE9;
+  margin: 30px 15px 30px 15px;
+  border-radius: 10px;
+ }
+
+ .tooltip-green-bold::after {
+    content: " ";
+    position: relative;
+    top: 30%; 
+    left: -33%;
+    border-width: 18px;
+    border-style: solid;
+    border-color: #47AA5D transparent transparent transparent;
+ }
+
+ .tooltip-icon-inbox-green-bold {
+  content:url(./assets/icons/GreenBoldInbox.png);
+  z-index: 2;
+  position: relative;
+  top: 18%;
+  left: 5%;
  }
