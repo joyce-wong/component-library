@@ -94,7 +94,7 @@ function App() {
       <h1>Tooltips</h1>
       <div className="general-tooltip-container">
         <div className="tooltip-container">
-          <h2>Bold</h2>
+          <h2 className="tooltip-headings">Bold</h2>
         <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
           Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
         </Tooltip>
@@ -109,17 +109,17 @@ function App() {
         </Tooltip>
         </div>
         <div className="tooltip-container">
-          <h2>Light</h2>
-        <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+          <h2 className="tooltip-headings">Light</h2>
+        <Tooltip color="black" shade="light" title="Archive notes" icon="inbox">
           Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
         </Tooltip>
-      <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+      <Tooltip color="blue" shade="light" title="Archive notes" icon="inbox">
           Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
         </Tooltip>
-        <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+        <Tooltip color="pink" shade="light" title="Archive notes" icon="inbox">
           Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
         </Tooltip>
-      <Tooltip color="black" shade="bold" title="Archive notes" icon="inbox">
+      <Tooltip color="green" shade="light" title="Archive notes" icon="inbox">
           Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
         </Tooltip>
         </div>

@@ -18,7 +18,7 @@ const Tooltip: FC<TooltipProps> = ({ color, shade, title, icon, children }) => {
     };
 
   return (
-    <div
+    <div className="tooltip-individual-container"
     >
       {isVisible && (
           <div className={`tooltip-${color}-${shade}`} >
@@ -29,7 +29,7 @@ const Tooltip: FC<TooltipProps> = ({ color, shade, title, icon, children }) => {
                 </div>
                 <div className={`tooltip-X-${shade === "bold" ? shade : color}`} onClick={handleClick}>
                     </div>
-                    <p className="tooltip-text">
+                    <p className={`tooltip-text-${shade === "bold" ? shade : color}`}>
                     {children}
                     </p>
         </div>

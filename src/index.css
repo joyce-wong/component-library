@@ -663,6 +663,10 @@ div.banner-icon-xcircle {
 
  /* Tooltips */
 
+ .tooltip-headings {
+   margin-bottom: 0px;
+ }
+
  .general-tooltip-container {
   display: flex;
   flex-direction: row;
@@ -678,6 +682,11 @@ div.banner-icon-xcircle {
   flex-wrap: wrap;
 }
 
+.tooltip-individual-container {
+  width: 384px;
+  height: 112px;
+  margin: 30px 15px 30px 15px;
+}
 
  .tooltip-black-bold {
   width: 384px;
@@ -723,7 +732,7 @@ div.banner-icon-xcircle {
   left: 92%;
  }
 
- p.tooltip-text {
+ p.tooltip-text-bold {
    font-size: 14px;
    font-family: Inter;
    font-weight: 400;
@@ -812,3 +821,224 @@ div.banner-icon-xcircle {
   top: 18%;
   left: 5%;
  }
+
+ .tooltip-black-light {
+  width: 384px;
+  height: 112px;
+  background-color: #FFFFFF;
+  color: #6B7280;
+  margin: 30px 15px 30px 15px;
+  border-radius: 10px;
+  filter: drop-shadow(1px 5px 5px #C1C2C7);
+ }
+
+ .tooltip-black-light::after {
+    content: " ";
+    position: relative;
+    top: 23%; 
+    left: -33%;
+    border-width: 18px;
+    border-style: solid;
+    border-color: #FFFFFF transparent transparent transparent;
+ }
+
+ .tooltip-title-black {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 600;
+  text-align: left;
+  margin: 0px 50px 0px 50px;
+  color: #111827;
+}
+
+ .tooltip-icon-inbox-black-light {
+  content:url(./assets/icons/BlackLightInbox.png);
+  z-index: 2;
+  position: relative;
+  top: 18%;
+  left: 5%;
+ }
+
+ .tooltip-X-black {
+  content:url(./assets/icons/BlackLightX.png);
+  z-index: 2;
+  position: relative;
+  top: -22%;
+  left: 91%;
+ }
+
+ p.tooltip-text-black {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px 50px 0px 50px;
+  transform: translateY(-25%);
+ }
+
+ .tooltip-blue-light {
+  width: 384px;
+  height: 112px;
+  background-color: #E0E7FF;
+  color: #1C51B9;
+  margin: 30px 15px 30px 15px;
+  border-radius: 10px;
+  filter: drop-shadow(1px 5px 5px #C1C2C7);
+ }
+
+ .tooltip-blue-light::after {
+    content: " ";
+    position: relative;
+    top: 30%; 
+    left: -33%;
+    border-width: 18px;
+    border-style: solid;
+    border-color: #E0E7FF transparent transparent transparent;
+ }
+
+ .tooltip-title-blue {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 600;
+  text-align: left;
+  margin: 0px 50px 0px 50px;
+  color: #1E40AF;
+}
+
+ .tooltip-icon-inbox-blue-light {
+  content:url(./assets/icons/BlueLightInbox.png);
+  z-index: 2;
+  position: relative;
+  top: 18%;
+  left: 5%;
+ }
+
+ .tooltip-X-blue {
+  content:url(./assets/icons/BlueLightX.png);
+  z-index: 2;
+  position: relative;
+  top: -18%;
+  left: 92%;
+ }
+
+ p.tooltip-text-blue {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px 50px 0px 50px;
+  transform: translateY(-10%);
+ }
+
+ .tooltip-pink-light {
+  width: 384px;
+  height: 112px;
+  background-color: #FFF3FC;
+  color: #C7369E;
+  margin: 30px 15px 30px 15px;
+  border-radius: 10px;
+  filter: drop-shadow(1px 5px 5px #C1C2C7);
+ }
+
+ .tooltip-pink-light::after {
+    content: " ";
+    position: relative;
+    top: 30%; 
+    left: -33%;
+    border-width: 18px;
+    border-style: solid;
+    border-color: #FFF3FC transparent transparent transparent;
+ }
+
+ .tooltip-title-pink {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 600;
+  text-align: left;
+  margin: 0px 50px 0px 50px;
+  color: #A9229B;
+}
+
+ .tooltip-icon-inbox-pink-light {
+  content:url(./assets/icons/PinkLightInbox.png);
+  z-index: 2;
+  position: relative;
+  top: 18%;
+  left: 5%;
+ }
+
+ .tooltip-X-pink {
+  content:url(./assets/icons/PinkLightX.png);
+  z-index: 2;
+  position: relative;
+  top: -18%;
+  left: 92%;
+ }
+
+ p.tooltip-text-pink {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px 50px 0px 50px;
+  transform: translateY(-10%);
+ }
+
+ .tooltip-green-light {
+  width: 384px;
+  height: 112px;
+  background-color: #E7FFF3;
+  color: #3C8C4E;
+  margin: 30px 15px 30px 15px;
+  border-radius: 10px;
+  filter: drop-shadow(1px 5px 5px #C1C2C7);
+ }
+
+ .tooltip-green-light::after {
+    content: " ";
+    position: relative;
+    top: 30%; 
+    left: -33%;
+    border-width: 18px;
+    border-style: solid;
+    border-color: #E7FFF3 transparent transparent transparent;
+ }
+
+ .tooltip-title-green {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 600;
+  text-align: left;
+  margin: 0px 50px 0px 50px;
+  color: #137A2A;
+}
+
+ .tooltip-icon-inbox-green-light {
+  content:url(./assets/icons/GreenLightInbox.png);
+  z-index: 2;
+  position: relative;
+  top: 18%;
+  left: 5%;
+ }
+
+ .tooltip-X-green {
+  content:url(./assets/icons/GreenLightX.png);
+  z-index: 2;
+  position: relative;
+  top: -18%;
+  left: 92%;
+ }
+
+ p.tooltip-text-green {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px 50px 0px 50px;
+  transform: translateY(-10%);
+ }
+
+ 
+
+
+
