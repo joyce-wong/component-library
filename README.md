@@ -1,6 +1,6 @@
 # Component Library
 
-This is a <a href="https://component-library-uh69-gpto8frsr-joyce-wongs-projects-98fa0255.vercel.app/">component library</a> with reusable and compound components for the Scrimba Advanced React course. All the components are responsive and optimized for both mobile and desktop views. 
+This is a <a href="https://component-library-uh69-dbl63mu8k-joyce-wongs-projects-98fa0255.vercel.app/">component library</a> with reusable and compound components for the Scrimba Advanced React course. All the components are responsive and optimized for both mobile and desktop views. 
 
 - React
 - Typescript
@@ -20,6 +20,10 @@ Below is a list of components and the interactions that can be triggered by the 
 - Hover the cursor to see shadow effect on card and icon. 
 
 ## Testimonial
+
+## Tooltips
+
+- Click the X on the top right corner to dismiss each tooltip. If you want to bring all tooltips back to the website, refresh the browser tab.
 
 ## About Joyce
 Joyce Wong is a front-end web developer at the NYC Department of Health and Mental Hygiene. She enjoys creating accessible websites that people enjoy using for a variety of devices. When not coding, you'll find her running, cooking, or reading a book from the library. 
