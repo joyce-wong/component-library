@@ -1038,7 +1038,215 @@ div.banner-icon-xcircle {
   transform: translateY(-10%);
  }
 
+ /* Toasts */
  
+ .general-toast-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+ }
 
+ .toast-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+.toast-individual-container {
+  width: 384px;
+  height: 78px;
+  margin: 30px 15px 30px 15px;
+}
 
+ .toast-green {
+  background-color: #ECFDF5;
+  color: #047857;
+  width: 384px;
+  height: 78px;
+  text-align: left;
+  position: fixed;
+  bottom: -1000px;
+  left: 50%;
+  transform: translate(-50%, -600%);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: slide-up-down 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide-up-down {
+  0% {
+    transform: translateX(-50%) translateY(1000%);
+    opacity: 0;
+ /* Start off-screen */
+  }
+  8.33% { /* ~1s for sliding up */
+    transform: translateX(-50%) translateY(-1500px);
+    opacity: 1;
+    /* Fixed position */
+  }
+  83.33% { /* Stay fixed for 10 seconds */
+    transform: translateX(-50%) translateY(-1500px);
+    opacity: 1;
+  }
+  100% { /* Slide down quickly */
+    transform: translateX(-50%) translateY(1000%);
+    opacity: 0;
+    /* Back off-screen */
+  }
+}
+
+.toast-title-green {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  color: #065F46;
+  text-align: left;
+  transform: translate(6%, -110%);
+}
+
+.toast-icon-green {
+  content:url(./assets/icons/GreenCheckCircle.png);
+  z-index: 2;
+  position: relative;
+  transform: translate(-70%, -15%);
+ }
+
+ p.toast-text-green {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px 10px 0px 10px;
+  transform: translate(3%, -70%);
+ }
+
+ .toast-blue {
+  background-color: #EFF6FF;
+  color: #1C51B9;
+  width: 384px;
+  height: 78px;
+  text-align: left;
+  position: fixed;
+  bottom: -1150px; /* Start off-screen */
+  left: 50%;
+  transform: translate(-50%, -600%);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: slide-up-down 7s;
+  animation-iteration-count: infinite;
+}
+
+.toast-title-blue {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1E40AF;
+  text-align: left;
+  transform: translate(6%, -110%);
+}
+
+.toast-icon-blue {
+  content:url(./assets/icons/BlueInfoCircle.png);
+  z-index: 2;
+  position: relative;
+  transform: translate(-70%, -15%);
+ }
+
+ p.toast-text-blue {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px 10px 0px 10px;
+  transform: translate(3%, -70%);
+ }
+
+ .toast-yellow {
+  background-color: #FFFBEB;
+  color: #B45309;
+  width: 384px;
+  height: 78px;
+  text-align: left;
+  position: fixed;
+  bottom: -1300px; /* Start off-screen */
+  left: 50%;
+  transform: translate(-50%, -600%);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: slide-up-down 7s;
+  animation-iteration-count: infinite;
+}
+
+.toast-title-yellow {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  color: #92400E;
+  text-align: left;
+  transform: translate(6%, -110%);
+}
+
+.toast-icon-yellow {
+  content:url(./assets/icons/YellowWarningCircle.png);
+  z-index: 2;
+  position: relative;
+  transform: translate(-70%, -15%);
+ }
+
+ p.toast-text-yellow {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px 10px 0px 10px;
+  transform: translate(3%, -70%);
+ }
+
+ .toast-red {
+  background-color: #FEF2F2;
+  color: #B45309;
+  width: 384px;
+  height: 78px;
+  text-align: left;
+  position: fixed;
+  bottom: -1450px; /* Start off-screen */
+  left: 50%;
+  transform: translate(-50%, -600%);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: slide-up-down 7s;
+  animation-iteration-count: infinite;
+}
+
+.toast-title-red {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  color: #92400E;
+  text-align: left;
+  transform: translate(6%, -110%);
+}
+
+.toast-icon-red {
+  content:url(./assets/icons/RedErrorCircle.png);
+  z-index: 2;
+  position: relative;
+  transform: translate(-70%, -15%);
+ }
+
+ p.toast-text-red {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px 10px 0px 10px;
+  transform: translate(3%, -70%);
+ }

@@ -9,6 +9,9 @@ import CardIcon from './CardIcon'
 import TestimonialNoPic from './TestimonialNoPic'
 import TestimonialWithPic from './TestimonialWithPic'
 import Tooltip from './Tooltip'
+import Toast from './Toast'
+
+
 
 function App() {
 
@@ -122,6 +125,23 @@ function App() {
       <Tooltip color="green" shade="light" title="Archive notes" icon="inbox">
           Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.
         </Tooltip>
+        </div>
+      </div>
+      <h1>Toasts</h1>
+      <div className="general-toast-container">
+        <div className="toast-container">
+          <Toast title="Success" color="green" >
+            Your work has been saved
+          </Toast>
+          <Toast title="Information" color="blue" >
+            Please read updated information
+          </Toast>
+          <Toast title="Warning" color="yellow" >
+            A network error has been detected
+          </Toast>
+          <Toast title="Error" color="red" >
+            Please re-save your work again
+          </Toast>
         </div>
       </div>
     </>
