@@ -31,6 +31,10 @@ const Toast: FC<ToastProps> = ({children, className, color, title, ...rest}) => 
 
   useEffect(() => {
     const target = document.querySelector(".general-toast-container")
+    if (!target) {
+        console.error("Element with class 'general-toast-container' not found.");
+        return;
+      }
     const observer = new IntersectionObserver(entries => {
       const entry = entries[0];
       if (entry.isIntersecting) {
