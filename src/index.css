@@ -1075,7 +1075,6 @@ div.banner-icon-xcircle {
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   animation: slide-up-down 7s;
-  animation-iteration-count: infinite;
 }
 
 @keyframes slide-up-down {
@@ -1139,7 +1138,6 @@ div.banner-icon-xcircle {
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   animation: slide-up-down 7s;
-  animation-iteration-count: infinite;
 }
 
 .toast-title-blue {
@@ -1181,7 +1179,6 @@ div.banner-icon-xcircle {
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   animation: slide-up-down 7s;
-  animation-iteration-count: infinite;
 }
 
 .toast-title-yellow {
@@ -1223,7 +1220,6 @@ div.banner-icon-xcircle {
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   animation: slide-up-down 7s;
-  animation-iteration-count: infinite;
 }
 
 .toast-title-red {
